@@ -105,10 +105,6 @@ grub> halt
 	- ext4 ラベル：ARCH
 	- 100GB
 
-:::message alert
-SSD内のデータは、次の手順で、w(書き込み)を入力し、決定した時点ですべて削除される。変更せずに終了したい場合は、qを入力する。
-:::
-
 ```bash
 # fdisk /dev/sdY
 
